@@ -23,7 +23,7 @@ export default class Throttler {
     
     // Safely run `fn` - wire resolve+reject to the `Promise.later` value
     const { prm, fn } = next;
-    this.do(fn).then(val => (prm as any).resolve(val), err => prm.reject(err));
+    this.do(fn).then(val => prm.resolve(val), err => prm.reject(err));
     
   }
   
