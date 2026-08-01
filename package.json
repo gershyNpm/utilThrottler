@@ -1,6 +1,6 @@
 {
   "name": "@gershy/util-throttler",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "author": "Gershom Maes",
   "description": "TODO",
   "keywords": [
@@ -8,19 +8,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gershy/utilThrottler.git"
+    "url": "git+https://github.com/gershyNpm/utilThrottler.git"
   },
   "bugs": {
-    "url": "https://github.com/gershy/utilThrottler/issues"
+    "url": "https://github.com/gershyNpm/utilThrottler/issues"
   },
-  "homepage": "https://github.com/gershy/utilThrottler#readme",
+  "homepage": "https://github.com/gershyNpm/utilThrottler#readme",
   "type": "module",
   "files": [
     "cmp"
   ],
   "license": "ISC",
   "peerDependencies": {
-    "@gershy/clearing": "^0.0.51"
+    "@gershy/clearing": "^0.0.52"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
