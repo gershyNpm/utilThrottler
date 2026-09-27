@@ -1,6 +1,6 @@
 {
   "name": "@gershy/util-throttler",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "author": "Gershom Maes",
   "description": "TODO",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "license": "ISC",
   "peerDependencies": {
-    "@gershy/clearing": "^0.0.54"
+    "@gershy/clearing": "^0.0.55"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"

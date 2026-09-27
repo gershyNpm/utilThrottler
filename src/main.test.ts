@@ -20,8 +20,14 @@ testRunner([
     fn: async () => {
       
       const throttler = new Throttler(3);
-      const result = await throttler.do(async () => 'hi');
-      assertEqual(result, 'hi');
+      const result = await Promise.all([
+        throttler.do(async () => 'hi1'),
+        throttler.do(async () => 'hi2'),
+        throttler.do(async () => 'hi3'),
+        throttler.do(async () => 'hi4'),
+        throttler.do(async () => 'hi5'),
+      ]);
+      assertEqual(result, [ 'hi1', 'hi2', 'hi3', 'hi4', 'hi5' ]);
       
     }
   }
